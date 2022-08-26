@@ -45,6 +45,7 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
+      - "traefik.http.services.dshackle.loadbalancer.server.scheme=h2c"
       - "traefik.http.services.dshackle.loadbalancer.server.port=12448"
       - "traefik.http.routers.dshackle.entrypoints=websecure"
       - "traefik.http.routers.dshackle.tls.certresolver=myresolver"
