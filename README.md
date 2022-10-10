@@ -12,3 +12,9 @@ DOMAIN=
 ```
 MAIL => the email address letsencrypt should contact about certificate changes
 DOMAIN => the domain pointing to the server
+
+
+Setup-Link:
+```
+https://purple-sea-cb0.notion.site/Provider-setup-instructions-8f49f0ec2ecc4e718c3c35c20889966a
+```
