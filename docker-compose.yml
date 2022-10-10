@@ -35,7 +35,7 @@ services:
       - "traefik.enable=true"
 
   dshackle:
-    image: emeraldpay/dshackle:0.12.0
+    image: emeraldpay/dshackle:0.13.1
     ports: 
       - "127.0.0.1:12448:12448"
       - "127.0.0.1:8545:8545"
