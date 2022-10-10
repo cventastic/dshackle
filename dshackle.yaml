@@ -3,6 +3,7 @@ port: 12448
 host: 0.0.0.0
 tls:
   enabled: false
+debug: true
 
 #proxy:
 #  host: 0.0.0.0
