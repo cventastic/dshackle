@@ -49,4 +49,4 @@ services:
       - "traefik.http.services.dshackle.loadbalancer.server.port=12448"
       - "traefik.http.routers.dshackle.entrypoints=websecure"
       - "traefik.http.routers.dshackle.tls.certresolver=myresolver"
-      - "traefik.http.routers.dshackle.rule=Host(`$DOMAIN`) && PathPrefix(`/`)"
+      - "traefik.http.routers.dshackle.rule=Host(`$DOMAIN`) && PathPrefix(`/p2p-dshackle`)"
