@@ -6,8 +6,6 @@
 bash prepare.sh
 ```
 
-# traefik branch for ssl-termination with traefik
-
 ## External Docs
 
 # Setup-Link:
@@ -19,3 +17,6 @@ https://purple-sea-cb0.notion.site/Provider-setup-instructions-8f49f0ec2ecc4e718
 ```
 https://github.com/p2p-org/dshackle/blob/master/dshackle-cli/README.md
 ```
+
+
+traefik ssl-termination in its own branch.
