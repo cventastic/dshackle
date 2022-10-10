@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  dshackle:
+    image: emeraldpay/dshackle:0.13.1
+    ports:
+      - "12448:12448"
+      - "127.0.0.1:8545:8545"
+    volumes:
+      - "./dshackle.yaml:/etc/dshackle/dshackle.yaml"
+      - "./private-key-test.pem:/private-key-test.pem"
+      - "./my.crt:/my.crt"
+      - "./my.key:/my.key"
+    restart: unless-stopped
