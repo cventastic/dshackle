@@ -24,10 +24,20 @@ https://github.com/p2p-org/dshackle/blob/master/dshackle-cli/README.md
 
 grpcurl:
 
+
 ```
+Install:
 https://github.com/fullstorydev/grpcurl
+
+Definitions:
+https://github.com/emeraldpay/emerald-grpc
 ```
 
+Usage:
+```
+grpcurl -import-path emerald-grpc/proto/ -proto blockchain.proto -d '{"type": 100}' SERVERIP:PORT emerald.Blockchain/SubscribeHead
+grpcurl -import-path emerald-grpc/proto/ -proto blockchain.proto -d '{"type": 100}' COMMONNAME:PORT emerald.Blockchain/SubscribeHead
+```
 
 
 ### Branches
