@@ -9,6 +9,6 @@ services:
     volumes:
       - "./dshackle.yaml:/etc/dshackle/dshackle.yaml"
       - "./private-key-test.pem:/private-key-test.pem"
-      - "./my.crt:/my.crt"
-      - "./my.key:/my.key"
+      - "./server.crt:/server.crt"
+      - "./server.key:/server.key"
     restart: unless-stopped
