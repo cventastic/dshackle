@@ -8,7 +8,7 @@ services:
       - "127.0.0.1:8545:8545"
     volumes:
       - "./dshackle.yaml:/etc/dshackle/dshackle.yaml"
-      - "./private-key-test.pem:/private-key-test.pem"
-      - "./server.crt:/server.crt"
-      - "./server.key:/server.key"
+      - "./certs/private-key-test.pem:/private-key-test.pem"
+      - "./certs/server.crt:/server.crt"
+      - "./certs/server.key:/server.key"
     restart: unless-stopped
