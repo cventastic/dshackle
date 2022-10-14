@@ -23,3 +23,8 @@ Cli-Tool
 ```
 https://github.com/p2p-org/dshackle/blob/master/dshackle-cli/README.md
 ```
+
+Concurrent connections cap at 250:
+```
+https://community.traefik.io/t/grpc-number-of-concurrent-stream-block-at-250/13407
+```
